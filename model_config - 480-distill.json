@@ -1,0 +1,32 @@
+{
+  "checkpoints": [
+  ],
+  "vae": [
+    "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors"
+  ],
+  "unet": [
+  ],
+  "model_patches":[
+    "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/model_patches/wan2.1_infiniteTalk_single_fp16.safetensors"  
+  ],
+  "diffusion_models": [
+    "https://huggingface.co/lightx2v/Wan2.1-Distill-Models/resolve/main/wan2.1_i2v_480p_scaled_fp8_e4m3_lightx2v_4step_comfyui.safetensors"
+  ],
+  "text_encoders": [
+    "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors"
+  ],
+  "upscale_models": [
+  ],
+  "controlnet": [
+  ],
+  "clip_vision": [
+  ],
+  "ipadapter": [
+  ],
+  "style_models": [
+  ],
+  "audio_encoders": [
+    "https://huggingface.co/Kijai/wav2vec2_safetensors/resolve/main/wav2vec2-chinese-base_fp16.safetensors"
+  ],
+  "clip": []
+} 
